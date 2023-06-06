@@ -27,11 +27,18 @@ body{
     flex-wrap: wrap;
     border-radius: 1rem;
 }
+.sr-only {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+  }
 img {
+    width: 64px;
+    height: 40px;
     display: block;
     margin: 3rem 0 0 3rem;
 }
-h1 {
+h2 {
     font-family: 'Big Shoulders Display', cursive, 'sans-serif';
     font-size: 3rem;
     margin: 0 2rem 0 3rem;
